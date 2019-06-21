@@ -1,0 +1,13 @@
+#Directories
+
+/*/.tmp*
+/*/*.o*
+/*/.*
+/*/Module.*
+
+/*/*.mod.*
+/*/*.ko
+
+/*/Module.symvers
+/*/modules.order
+
