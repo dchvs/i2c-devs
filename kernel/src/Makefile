@@ -12,8 +12,8 @@ ccflags-y :=  -I${obj} \
 all:
 	$(MAKE) -C $(KERNEL_SRC) M=$(shell pwd) $(filter-out all,$(MAKECMDGOALS))
 
-modules_install:
-	sudo $(MAKE) -C $(KERNEL_SRC) O=$(KBUILD_OUTPUT) M=$(shell pwd) $(filter-out all,$(MAKECMDGOALS))
+#modules_install:
+#	sudo $(MAKE) -C $(KERNEL_SRC) O=$(KBUILD_OUTPUT) M=$(shell pwd) $(filter-out all,$(MAKECMDGOALS))
 
 clean:
 	rm -Rf Module.symvers *.o *.ko modules.order .*.cmd .tmp_versions *.mod.c
