@@ -50,10 +50,5 @@ add_custom_target (driver ALL
     COMMAND $(MAKE) -C ${CMAKE_CURRENT_SOURCE_DIR}/
 )
 
-#add_custom_target (driver_install
-#    COMMAND $(MAKE) -C ${CMAKE_CURRENT_SOURCE_DIR}/ modules_install
-#)
-
-
 # Install the binary
 install (FILES ${DRIVERNAME}.ko DESTINATION lib/modules/${CMAKE_SYSTEM_VERSION}/kernel/drivers )
