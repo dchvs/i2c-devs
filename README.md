@@ -13,5 +13,4 @@ make
 
 make install
 
-make driver_install
 ```
