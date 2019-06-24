@@ -47,7 +47,7 @@ link_directories    ( ${INCLUDES}
 
 # Target
 add_custom_target (driver ALL
-    COMMAND $(MAKE) -C ${CMAKE_CURRENT_SOURCE_DIR}/
+    COMMAND make -C ${CMAKE_CURRENT_SOURCE_DIR}/
 )
 
 # Install the binary
