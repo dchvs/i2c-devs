@@ -1,5 +1,13 @@
 # I2C devices
 
+This is an I²C driver that display time from RTC in a LCD.
+
+## Requirements
+- Raspberry Pi 3 (BCM2837)
+- I²C devices:
+  - RTC DS3231
+  - LCD 16x2
+
 ## Installation
 
 ```js
